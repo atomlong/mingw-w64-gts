@@ -22,6 +22,6 @@ diff -Naur gts-0.7.6.orig/src/Makefile.am gts-0.7.6/src/Makefile.am
 -predicates_init.h: predicates_init
 -	./predicates_init >  $(srcdir)/predicates_init.h
 +predicates_init.h: predicates_init$(EXEEXT)
-+	./predicates_init$(EXEEXT) >  $(srcdir)/predicates_init.h
++	wine ./predicates_init$(EXEEXT) >  $(srcdir)/predicates_init.h
 
  CLEANFILES = $(BUILT_SOURCES)

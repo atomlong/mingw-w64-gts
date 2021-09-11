@@ -13,7 +13,7 @@ options=('!strip' '!buildflags' 'staticlibs')
 source=("https://downloads.sourceforge.net/project/gts/gts/${pkgver}/gts-${pkgver}.tar.gz"
         "gts-mingw.patch")
 sha256sums=('059c3e13e3e3b796d775ec9f96abdce8f2b3b5144df8514eda0cc12e13e8b81e'
-            'd16c24ce5766c9dc36a2ad02d1298c79f7576a29ac8ec79268020fa9bc453f60')
+            '23321021de91cfd4f964bfc89011a336342465c4b868ad89a9be7e679b3d7e48')
 
 _architectures="i686-w64-mingw32 x86_64-w64-mingw32"
 
